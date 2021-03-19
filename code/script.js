@@ -16,6 +16,7 @@ function img(){
         link.href = "../img/Foca.jpg";
     } if (caixa.value.match("3")) {
         imagem.src = "../img/Macaco.jpg";
+        link.href = "../img/Macaco.jpg";
     }
 }
 
