@@ -14,13 +14,14 @@
     <body>
         <div id="login">
             <label for="text">Escolha uma cor (em inglês ou hexadecimal):</label>
-            <input type="text" id="color" onchange="myFunction()">
+            <input type="text" id="color" onchange="cor()">
             <label for="text">Escolha uma imagem:</label>
-            <select name="imagens" id="imagens" size="1">
+            <select name="imagens" id="imagens" size="1" onchange="img()">
                 <option value="1">Urso</option>
                 <option value="2">Foca</option>
                 <option value="3">Macaco</option>
             </select>
+            <a href="../img/Urso.jpg" target="_blank" id="link"><img src="../img/Urso.jpg" id="image" width="100%" height="100%"></a>
         </div>
     </body>
 </html>
